@@ -7,6 +7,6 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 100.times do
-  book = Book.new(name: Faker::Book.title, author: Faker::Book.author, price: Faker::Commerce.price, isbn: Faker::Code.isbn)
+  book = Book.new(name:  Faker::Book.title, author: Faker::Book.author, price: Faker::Commerce.price, isbn: Faker::Code.isbn)
   book.save
 end
